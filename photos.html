@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great rift valley appartments</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="script" href="new.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="photos.css">
+    
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Photo gallery</a>
+                    <div class="dropdown-content">
+                        <a href="photos.html">View photos here</a>
+                        <!-- Add more links here if needed -->
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="pay-rent.html">Pay Rent</a></li> <!-- Added Pay Rent link -->
+                <li class="dropdown">
+                    <div class="dropdown-content">
+                        <li></li>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Homepage Hero Section -->
+    <section id="home" class="hero">
+        <h1><marquee direction="left">Welcome to Great Rift Valley Apartments Nakuru</marquee></h1>
+        <p>Experience luxury and comfort in a serene environment.</p>
+        <a href="javascript:void(0);" class="button" id="bookBtn">Book With Us</a>
+    </section>
+    
+    <section id="booking" class="booking-form" style="display: none;">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Your message or inquiry"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="thankYouMessage" class="thank-you-message"></p>
+    </section>
+    
+
+
+    <main>
+        <!-- Blocks Section -->
+        <section class="gallery" id="blocks">
+            <h2>Blocks</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="simba.jpg" alt="Apartment Block 1">
+                    <p class="explanation">Simba Block: Our spacious and well-ventilated apartments in this block offer stunning views of the valley.</p>
+                </div>
+                <div>
+                    <img src="kifaru.jpg" alt="Apartment Block 2">
+                    <p class="explanation">Kifaru Block: A modern design with ample amenities for a luxurious living experience.</p>
+                </div>
+                <div>
+                    <img src="ndovu.jpg" alt="Apartment Block 3">
+                    <p class="explanation">Ndovu Block: Spacious units with large windows and a focus on natural light and comfort.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interior Section -->
+        <section class="gallery" id="interior">
+            <h2>Interior</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="livingroom.jpg" alt="Living Room">
+                    <p class="explanation">Living Room: Enjoy a cozy and modern living room, perfect for family gatherings.</p>
+                </div>
+                <div>
+                    <img src="kitchen2.jpg" alt="Kitchen">
+                    <p class="explanation">Kitchen: Fully equipped with modern appliances for a seamless cooking experience.</p>
+                </div>
+                <div>
+                    <img src="showerfull.jpg" alt="Shower">
+                    <p class="explanation">Shower: A modern and luxurious bathroom with high-end finishes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Swimming Pool Section -->
+        <section class="gallery" id="swimming-pool">
+            <h2>Swimming Pool</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="pool.jpg" alt="Swimming Pool 1">
+                    <p class="explanation">Our stunning swimming pool provides a refreshing retreat for residents.</p>
+                </div>
+                <div>
+                    <img src="pool2.jpg" alt="Swimming Pool 2">
+                    <p class="explanation">A large pool area with plenty of space to relax and unwind.</p>
+                </div>
+                <div>
+                    <img src="pool3.jpg" alt="Swimming Pool 3">
+                    <p class="explanation">Take a dip or lounge by the poolside, enjoying the beautiful weather.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fitness Center Section -->
+        <section class="gallery" id="fitness-center">
+            <h2>Fitness Center</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="fitness.jpg" alt="Fitness Center 1">
+                    <p class="explanation">State-of-the-art fitness equipment to help you stay in shape.</p>
+                </div>
+                <div>
+                    <img src="fitness2.jpg" alt="Fitness Center 2">
+                    <p class="explanation">Our spacious gym is designed for maximum comfort and effectiveness.</p>
+                </div>
+                <div>
+                    <img src="fitness3.jpg" alt="Fitness Center 3">
+                    <p class="explanation">A variety of fitness classes available for residents.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botanic Garden Section -->
+        <section class="gallery" id="botanic-garden">
+            <h2>Botanic Garden</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="bg1.jpg" alt="Botanic Garden 1">
+                    <p class="explanation">Our lush botanic garden provides a peaceful escape amidst nature.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kids Corner Section -->
+        <section class="gallery" id="kids-corner">
+            <h2>Kids Corner</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="kidsplay.jpg" alt="Kids Corner 1">
+                    <p class="explanation">A dedicated play area where children can have fun and stay active.</p>
+                </div>
+            </div>
+        </section>
+               <!-- Football Pitch Section -->
+        <section class="gallery" id="football-pitch">
+            <h2>Football Pitch</h2>
+            <div class="gallery-grid">
+                <div>
+                    <img src="pg1.jpg" alt="Football Pitch 1">
+                    <p class="explanation">Football Pitch: A full-size football pitch where you can enjoy an energetic game with friends or neighbors.</p>
+                </div>
+                <div>
+                    <img src="pg2.jpg" alt="Football Pitch 2">
+                    <p class="explanation">Enjoy a relaxing time after a match with great views and facilities available around the pitch.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="photos.js"></script>
+  <!-- Footer -->
+  <footer>
+        
+    <div class="social-media">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>Email us at   :  greatriftapartments@gmail.com</p> <br>
+    <p>Contact us at :  0732575297 or 0724680594</p> <br>
+    <p>&copy; 2024 Great Rift Valley Apartments Nakuru. All rights reserved.</p>
+    <form class="newsletter">
+        <h4>Subscribe to our Newsletter</h4>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+      <!-- Google Map Section -->
+<div class="google-map">
+    <h4>Our Location </h4>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1338452.012482003!2d34.0335!3d-0.0236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182780d08350900f%3A0x403b0eb0a1976dd9!2sKenya!5e0!3m2!1sen!2ske!4v1731154830799!5m2!1sen!2ske
+    "width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+</div>
+
+</footer>
+<script type="" src="new.js"></script>
+
+</body>
+</html>
+
+        
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great rift valley appartments</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="script" href="new.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="pay-rent.css">
+    
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Photo gallery</a>
+                    <div class="dropdown-content">
+                        <a href="photos.html">View photos here</a>
+                        <!-- Add more links here if needed -->
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="pay-rent.html">Pay Rent</a></li> <!-- Added Pay Rent link -->
+                <li class="dropdown">
+                    <div class="dropdown-content">
+                        <li></li>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Homepage Hero Section -->
+    <section id="home" class="hero">
+        <h1><marquee direction="left">Welcome to Great Rift Valley Apartments Nakuru</marquee></h1>
+        <p>Experience luxury and comfort in a serene environment.</p>
+        <a href="javascript:void(0);" class="button" id="bookBtn">Book With Us</a>
+    </section>
+    
+    <section id="booking" class="booking-form" style="display: none;">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Your message or inquiry"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="thankYouMessage" class="thank-you-message"></p>
+    </section>
+    
+    
+    <div class="container">
+        <header>
+            <h1>Pay Rent - Great Rift Valley</h1>
+            
+        </header>
+        
+        
+        <section class="payment-info">
+            <p>Thank you for choosing to pay your rent for the Great Rift Valley property.</p>
+            <p>To complete your payment, please follow the instructions below:</p>
+        
+                <img src="paybill.jpg" alt="Centered Image" width="200" height="200">
+            <ul>
+                <li><strong>Step 1:</strong> Open your M-PESA app (or any other payment platform that supports Paybill).</li>
+                <li><strong>Step 2:</strong> Select 'Lipa na M-PESA' and then choose 'Paybill'.</li>
+                <li><strong>Step 3:</strong> Enter the Paybill number: <strong>247247</strong></li>
+                <li><strong>Step 4:</strong> Enter the Account Number: <strong>748693</strong></li>
+                <li><strong>Step 5:</strong> Enter the amount you want to pay (in KES).</li>
+                <li><strong>Step 6:</strong> Confirm and send the payment.</li>
+            </ul>
+            
+            <p>Once you have completed the payment, please fill out the form below to confirm your payment.</p>
+        </section>
+
+        <section class="payment-form">
+            <form id="payment-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                <label for="amount">Amount Paid (KES):</label>
+                <input type="number" id="amount" name="amount" required placeholder="Enter the amount you paid">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+                <button type="submit" id="pay-button">Submit Payment</button>
+            </form>
+        </section>
+
+        <div id="payment-status" class="payment-status"></div>
+    </div>
+
+    <script src="pay-rent.js"></script>
+     <!-- Footer -->
+     <footer>
+        
+        <div class="social-media">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>Email us at   :  greatriftapartments@gmail.com</p> <br>
+        <p>Contact us at :  0732575297 or 0724680594</p> <br>
+        <p>&copy; 2024 Great Rift Valley Apartments Nakuru. All rights reserved.</p>
+        <form class="newsletter">
+            <h4>Subscribe to our Newsletter</h4>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+          <!-- Google Map Section -->
+    <div class="google-map">
+        <h4>Our Location </h4>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1338452.012482003!2d34.0335!3d-0.0236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182780d08350900f%3A0x403b0eb0a1976dd9!2sKenya!5e0!3m2!1sen!2ske!4v1731154830799!5m2!1sen!2ske
+        "width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+    
+    </footer>
+    <script type="" src="new.js"></script>
+
+</body>
+</html>
